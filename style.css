@@ -53,6 +53,9 @@ a {
     width: 320px;
     flex-direction: column;
 }
+.main-title p{
+    margin: 0;
+}
 .image{
     display: flex;
     height: 150px;
