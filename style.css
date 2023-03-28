@@ -8,10 +8,11 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
     color: white;
     font-size: 12px;
+    align-items: center;
 }
 
 .logo {
@@ -20,7 +21,7 @@ body {
 .links{
     display: flex;
     font-size: 15px;
-
+    color:#E5E7EB;
 }
 h1{
     padding: 0;
