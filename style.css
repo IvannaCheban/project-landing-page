@@ -18,11 +18,13 @@ body {
 .logo {
     font-weight: bolder;
 }
-.links{
+
+.links {
     display: flex;
     font-size: 15px;
 }
-h1{
+
+h1 {
     margin: 0;
 }
 
@@ -30,10 +32,17 @@ li {
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-left:10px;
+    margin-left: 10px;
 }
 
 a {
     text-decoration: none;
-    color:#E5E7EB;
+    color: #E5E7EB;
+}
+
+.subheader{
+    display: flex;
+    height: 250px;
+    align-items: center;
+    background-color: #1F2937;
 }
