@@ -44,5 +44,17 @@ a {
     display: flex;
     height: 250px;
     align-items: center;
+    justify-content: space-around;
     background-color: #1F2937;
+}
+.main-title{
+    display: flex;
+    height: 150px;
+    width: 320px;
+    flex-direction: column;
+}
+.image{
+    display: flex;
+    height: 150px;
+    width: 320px;
 }
