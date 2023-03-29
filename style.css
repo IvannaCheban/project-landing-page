@@ -87,10 +87,6 @@ button {
 
 .image {
     display: flex;
-    height: 235px;
-    width: 520px;
-    background: rgba(183, 175, 179, 0.5);
-    color: #E5E7EB;
     align-items: center;
     justify-content: center;
 }
