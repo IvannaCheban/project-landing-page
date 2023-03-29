@@ -90,12 +90,33 @@ button {
     align-items: center;
     justify-content: center;
 }
+
 .galery{
     height: 500px;
     display: flex;
-    background-color: #F9faF8;
-    color: black;
+    background-color: white;
+    flex-direction: column;
+    text-align: center;
+   justify-content: space-evenly;
+}
+.galery-header{
+    display: flex;
+    color: #1F2937;
     justify-content: center;
-    gap: 50px;
-    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap:50px;
+}
+.item{
+    max-width: 170px;
+    color:rgba(88, 76, 82, 1.0);
+}
+.item > img{
+    border-radius: 10px;
 }
