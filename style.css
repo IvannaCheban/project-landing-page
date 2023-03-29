@@ -116,6 +116,7 @@ button {
 .item{
     max-width: 170px;
     color:rgba(88, 76, 82, 1.0);
+    font-size: 16px;
 }
 .item > img{
     border-radius: 10px;
