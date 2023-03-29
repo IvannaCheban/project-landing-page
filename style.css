@@ -120,3 +120,31 @@ button {
 .item > img{
     border-radius: 10px;
 }
+
+.quote {
+    height: 430px;
+    display: flex;
+    background-color: #E5E7EB; 
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+}
+.blockquote{
+    padding-left: 100px;
+    display: flex;
+    width: 800px;
+    font-size:36px;
+    font-style:oblique;
+    color: #1F2937;
+    margin: 0;
+}
+.author{
+    padding-left: 100px;
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content:flex-end;
+    width: 800px;
+
+}
