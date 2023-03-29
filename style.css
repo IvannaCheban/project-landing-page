@@ -90,3 +90,12 @@ button {
     align-items: center;
     justify-content: center;
 }
+.galery{
+    height: 500px;
+    display: flex;
+    background-color: #F9faF8;
+    color: black;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
