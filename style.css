@@ -13,26 +13,31 @@ body {
     color: white;
     font-size: 12px;
     align-items: center;
+    margin: 0;
+    height: 30px;
 }
 
 .logo {
     font-weight: bolder;
     width: 350px;
+    font-size: 24px;
+    color:#F9faF8;
 }
-
-.links {
+.links{
     display: flex;
-    font-size: 17px;
-}
+    font-size: 18px;
 
+}
 .main-title h1 {
+    font-size: 48px;
     margin: 0;
     color: white;
+    font-weight: bolder;
 }
 
 li {
     list-style: none;
-    padding: 10px;
+    padding:5px ;
     margin: 0;
 }
 
@@ -40,26 +45,43 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+ul{
+    margin: 0;
+}
 
 .subheader{
     display: flex;
-    height: 250px;
+    height: 500px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #1F2937;
 }
 .main-title{
     display: flex;
-    height: 150px;
-    width: 360px;
+    height: 235px;
+    width: 520px;
     flex-direction: column;
 }
 .main-title p{
     margin: 0;
     color: #E5E7EB;
+    font-size: 18px;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    width: 130px;
+    background-color: #3882f6;
+    color:white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+
 }
 .image{
     display: flex;
-    height: 150px;
-    width: 360px;
+    height: 235px;
+    width: 520px;
+    background:rgba(183, 175, 179, 0.5);
+    color: #E5E7EB;
 }
