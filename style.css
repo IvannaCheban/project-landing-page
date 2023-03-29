@@ -156,6 +156,33 @@ button {
     width: 800px;
 }
 
-.container{
+.call-section{
+    display:flex;
     height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    width: 1000px;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+.call{
+    color: white;
+}
+.button{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    width: 130px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid white;
+    justify-content: center;
 }
