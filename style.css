@@ -156,12 +156,13 @@ button {
     width: 800px;
 }
 
-.call-section{
-    display:flex;
+.call-section {
+    display: flex;
     height: 350px;
     justify-content: center;
     align-items: center;
 }
+
 .container {
     display: flex;
     width: 1000px;
@@ -171,10 +172,12 @@ button {
     background-color: #3882f6;
     border-radius: 10px;
 }
-.call{
+
+.call {
     color: white;
 }
-.button{
+
+.button {
     display: flex;
     margin: 5px;
     padding: 5px;
@@ -185,4 +188,13 @@ button {
     font-weight: bold;
     border: 2px solid white;
     justify-content: center;
+}
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    height: 100px;
 }
