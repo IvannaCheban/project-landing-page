@@ -29,7 +29,6 @@ body {
   display: flex;
   justify-content: space-around;
   color: #f9faf8;
-  font-size: 18px;
   font-weight: 400;
 }
 .nav__link:link,
@@ -37,6 +36,7 @@ body {
   font-size: 1.3rem;
   font-weight: 400;
   color: inherit;
+  font-size: 18px;
   text-decoration: none;
   display: block;
   transition: all 0.3s;
@@ -86,8 +86,7 @@ ul {
   font-size: 18px;
 }
 
-button {
-  margin: 5px;
+.btn {
   padding: 5px;
   width: 130px;
   background-image: linear-gradient(to top left, #1f2937, #2a69cf);
