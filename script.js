@@ -7,7 +7,7 @@ document.querySelector(".nav__links").addEventListener("click", function (e) {
     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
   }
 });
-const tabs = document.querySelectorAll(".quotes_tab");
+const tabs = document.querySelectorAll(".quotes__tab");
 const tabsContainer = document.querySelector(".quotes__tab--container");
 const tabsContent = document.querySelectorAll(".quotes__content");
 tabsContainer.addEventListener("click", function (e) {
