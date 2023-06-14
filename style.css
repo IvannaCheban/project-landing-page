@@ -139,33 +139,41 @@ button {
 }
 
 .quote {
-  height: 430px;
+  height: fit-content;
   display: flex;
-  background-color: #e5e7eb;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
+}
+.quotes__tab--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.quotes__tab--active {
+  transform: translateY(-66%);
 }
 
-.blockquote {
+.quotes__content {
   padding-left: 100px;
-  display: flex;
-  width: 800px;
+  display: none;
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
   color: #1f2937;
   margin: 0;
 }
-
-.author {
-  padding-left: 100px;
+.quotes__tab span {
+  margin-right: 1rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 250;
+}
+.quotes__content--active {
   display: flex;
-  color: #1f2937;
-  font-size: 34px;
-  font-weight: bold;
-  justify-content: flex-end;
-  width: 800px;
+  grid-template-columns: 7rem 1fr;
+  column-gap: 3rem;
+  row-gap: 0.5rem;
+  align-items: center;
 }
 
 .call-section {
@@ -194,12 +202,11 @@ button {
   margin: 5px;
   padding: 5px;
   width: 130px;
-  background-color: #3882f6;
+  background-color: #1d417a;
   border-radius: 10px;
   font-size: 18px;
   font-weight: bold;
   border: 2px solid white;
-  justify-content: center;
 }
 .footer {
   display: flex;
